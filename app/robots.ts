@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://captiongen.app/sitemap.xml',
+    sitemap: 'https://captiongen.utilix.site/sitemap.xml',
   };
 }
