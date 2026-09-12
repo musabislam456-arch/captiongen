@@ -4,7 +4,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://captiongen.app'),
+  metadataBase: new URL('https://captiongen.utilix.site'),
   title: {
     default: 'CaptionGen — Social Media Marketing Tools, Caption Generator & Hashtag Finder',
     template: '%s | CaptionGen',
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: 'CaptionGen — Social Media Marketing Tools',
     description: 'Instant rule-based caption generator, viral hashtag finder, and 2026 posting time guide for creators & agencies.',
     type: 'website',
-    url: 'https://captiongen.app',
+    url: 'https://captiongen.utilix.site',
     siteName: 'CaptionGen',
   },
   twitter: {
@@ -40,4 +40,3 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </html>
   );
 }
-
