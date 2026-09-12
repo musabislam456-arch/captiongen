@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { BLOG_POSTS } from '@/lib/blogPosts';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://captiongen.app';
+  const baseUrl = 'https://captiongen.utilix.site';
 
   const blogUrls = BLOG_POSTS.map((post) => ({
     url: `${baseUrl}/blog/${post.slug}`,
