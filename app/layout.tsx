@@ -23,6 +23,9 @@ export const metadata: Metadata = {
     title: 'CaptionGen — Social Media Marketing Tools',
     description: 'Instant rule-based caption generator, viral hashtag finder, and 2026 posting time guide.',
   },
+  verification: {
+    google: 'I_SaNu0LrbiQSkKmCb7bm8LRBISuViD4KTJh0FHRo2s',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
