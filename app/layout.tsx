@@ -17,12 +17,27 @@ export const metadata: Metadata = {
     type: 'website',
     url: 'https://captiongen.utilix.site',
     siteName: 'CaptionGen',
+    images: [
+      {
+        url: '/opengraph-image',
+        width: 1200,
+        height: 630,
+        alt: 'CaptionGen — Social Media Marketing Tools',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'CaptionGen — Social Media Marketing Tools',
     description: 'Instant rule-based caption generator, viral hashtag finder, and 2026 posting time guide.',
+    images: ['/opengraph-image'],
   },
+  icons: {
+    icon: '/icon',
+    shortcut: '/icon',
+    apple: '/apple-icon',
+  },
+  manifest: '/manifest.webmanifest',
   verification: {
     google: 'I_SaNu0LrbiQSkKmCb7bm8LRBISuViD4KTJh0FHRo2s',
   },
